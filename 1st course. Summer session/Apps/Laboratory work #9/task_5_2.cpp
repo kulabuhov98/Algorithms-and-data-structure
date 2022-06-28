@@ -39,7 +39,7 @@ int quickSorting(int *array, int arraySize) {
         }
 	} while (i <= j);
 	
-	if(j > 0) {
+	if (j > 0) {
 		quickSorting(array, j + 1);
 	}
 	if (i < arraySize) {
